@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "LeadsTracker",
+  "description": "LeadsTracker, a user-friendly Chrome extension for lead management. It enables users to effortlessly create and save a list of URLs linked to potential leads.",
+  "icons": {
+    "128": "images/icon128.png",
+    "48": "images/icon48.png",
+    "16": "images/icon16.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "images/icon48.png"
+  },
+  "permissions": ["tabs"]
+}
